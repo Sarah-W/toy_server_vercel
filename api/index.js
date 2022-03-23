@@ -6,7 +6,7 @@ dotenv.config()
 
 const {SECRET_TOKEN} = process.env
 
-module.exports = async (req, res) => {
+export default async function (req, res) {
   const auth = req.headers.authorization === SECRET_TOKEN
   let method = req.method
   switch (true) {
