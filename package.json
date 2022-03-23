@@ -1,0 +1,21 @@
+{
+  "name": "animal_server",
+  "version": "1.0.0",
+  "description": "animals!",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sarah Wheaton",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "jsonschema": "^1.4.0",
+    "mongodb": "^4.4.1"
+  }
+}
